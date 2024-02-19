@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Moncler Coat",
+        "price":2200,
+        "imgUrl": "images/moncler_coat.jpeg"
+    },
+    {
+    "id": 2,
+    "name": "Moncler Shirt",
+    "price":270,
+    "imgUrl": "images/Moncler_Shirt.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Moncler Hoodie",
+        "price":785,
+        "imgUrl": "images/Moncler_Hoodie.jpeg"
+    }
+]
