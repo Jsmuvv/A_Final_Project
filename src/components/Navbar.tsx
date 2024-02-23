@@ -25,6 +25,9 @@ export function Navbar(){
                     <Nav.Link to= "/registration" as={NavLink}>
                         Register
                     </Nav.Link>
+                    <Nav.Link to= "/feedback" as={NavLink}>
+                        Survey!
+                    </Nav.Link>
                 </Nav>
                 {cartAmount > 0 && (<Button 
                 onClick={ openCart }

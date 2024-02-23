@@ -12,6 +12,8 @@ import { useEffect } from "react";
 import AlertMessage from "./components/AlertMessage";
 import { useState } from "react";
 import { AlertType, UserType } from "./type";
+import Feedback from "./pages/Feedback";
+
 
 
 function App() {
@@ -48,6 +50,7 @@ function App() {
           <Route path="/store" element={<Store />} />
           <Route path="/login" element={<Login flashMessage={flashMessage} logUserIn={logUserIn}/>} />
           <Route path="/registration" element={<Registration flashMessage={flashMessage} />} />
+          <Route path="/feedback" element={<Feedback />} />
         </Routes>
       </Container>
     </ShoppingCartProvider>
